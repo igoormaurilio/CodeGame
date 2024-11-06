@@ -1,0 +1,41 @@
+
+body{
+    background-color: #f3f3f3;
+}
+
+.container{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.item{
+    background-color: black;
+    margin: 10px;
+    color: #ffff;
+    font-size: 22px;
+    width: 10px;
+    
+}
+
+  
+.inteface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo img{
+    max-width: 80px;
+}
+/* media query do tablet */
+@media (min-widht: 768px) and (max-widht: 1024px){
+
+}
